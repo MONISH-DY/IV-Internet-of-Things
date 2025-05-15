@@ -2,6 +2,22 @@
 
 # 🎒 NeoPack - IoT-Based Smart Backpack
 
+---
+
+## Our Project Demo
+
+- Here's the youtube link for our project demo:
+- [🔥 This Backpack Knows What You Forgot! 😱 | Meet NeoPack – The Smartest IoT Bag Ever](https://youtu.be/QEiaLV7WJts)
+<p align="center">
+  <a href="https://youtu.be/QEiaLV7WJts" target="_blank">
+    <img src="https://img.youtube.com/vi/QEiaLV7WJts/0.jpg" alt="NeoPack Demo Video" width="60%" />
+    <br/>
+    📺 Watch Demo Video
+  </a>
+</p>
+
+---
+
 ## 🧠 Abstract
 
 **NeoPack** is a context-aware IoT Smart Backpack designed to enhance everyday efficiency and security. Whether it's forgetting a book, walking into a rainstorm, or carrying an overloaded bag, NeoPack proactively alerts you before problems arise. The system integrates ESP32 microcontrollers, sensors, and mobile connectivity to provide real-time, intelligent feedback—making your backpack smarter than ever.
@@ -99,12 +115,6 @@ Provides real-time alerts, interactive dashboards, and status indicators for boo
 - **Settings**: Customization and theme toggles  
 
 ---
-
-## Our Project Demo
-
-- Here's the youtube link for our project demo:
-- [🔥 This Backpack Knows What You Forgot! 😱 | Meet NeoPack – The Smartest IoT Bag Ever](https://youtu.be/QEiaLV7WJts)
-
 
 ## 👥 Authors
 
