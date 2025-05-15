@@ -1,133 +1,105 @@
 # IV-Internet-of-Things
 
-# 🎒 NeoPack - IoT-Based Smart Backpack
+<!-- Header Typing Animation -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=true&width=700&height=120&lines=🎒+NeoPack+-+IoT+Smart+Backpack;Smarter+Packing.+Safer+Days.+Connected+Life." alt="Typing SVG" />
+</h1>
 
----
-
-## Our Project Demo
-
-- Here's the youtube link for our project demo:
-  
+<!-- Video Preview -->
 <p align="center">
   <a href="https://youtu.be/QEiaLV7WJts" target="_blank">
-    <img src="https://img.youtube.com/vi/QEiaLV7WJts/0.jpg" alt="NeoPack Demo Video" width="60%" />
-    <br/>
-    📺 Watch Demo Video
-  </a>
+    <img src="https://img.youtube.com/vi/QEiaLV7WJts/maxresdefault.jpg" alt="NeoPack Demo Video" width="80%" style="border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" />
+  </a>
+  <br/>
+  📺 <b><i>Click to Watch the Demo</i></b>
 </p>
 
 ---
 
-## 🧠 Abstract
-
-**NeoPack** is a context-aware IoT Smart Backpack designed to enhance everyday efficiency and security. Whether it's forgetting a book, walking into a rainstorm, or carrying an overloaded bag, NeoPack proactively alerts you before problems arise. The system integrates ESP32 microcontrollers, sensors, and mobile connectivity to provide real-time, intelligent feedback—making your backpack smarter than ever.
-
----
-
-## 💡 The Idea
-
-In an era of smart everything, the backpack remains dumb. NeoPack changes that.
-
-This intelligent backpack uses **ESP32-C3 modules mounted in books**, activated via **an EMI-triggered rail system**. These modules broadcast signals verified by an ESP32-S3 in the bag. Combine that with weather forecasting, battery level monitoring, and weight detection—and you have a personal assistant strapped to your shoulders.
-
-**NeoPack = Smart Alerts + Organized Packing + Real-Time Monitoring**
+<!-- Cool badge section -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-IoT-blue?style=for-the-badge&logo=raspberrypi" />
+  <img src="https://img.shields.io/badge/Mobile-App-purple?style=for-the-badge&logo=flutter" />
+  <img src="https://img.shields.io/badge/Cloud-Supabase-brightgreen?style=for-the-badge&logo=supabase" />
+</p>
 
 ---
 
-## 🎯 Objective
+<!-- Fancy gradient block -->
+<h2 align="center">
+  🧠 <span style="background: linear-gradient(to right, #00c6ff, #0072ff); -webkit-background-clip: text; color: transparent;">Abstract</span>
+</h2>
 
-To engineer a smart backpack that:
-- Uses **EMI-triggered ESP32-C3 modules** to detect missing books
-- Monitors battery levels of electronic devices
-- Detects bag overweight conditions
-- Provides real-time alerts via a custom mobile app
-- Retrieves contextual weather updates
+> *NeoPack* is a *context-aware IoT Backpack* that prevents forgetfulness, gives real-time feedback, and connects your essentials to your smartphone.
 
----
+Forget forgetting.  
+Forget the weather.  
+Forget being overloaded.
 
-## 🔍 Problems with Traditional Backpacks
-
-- ❌ No way to verify packed books or items  
-- ❌ Unaware of weather—no reminders to carry umbrella  
-- ❌ No alerts for low battery levels of devices  
-- ❌ Users carry overweight bags without feedback  
-- ❌ No interaction or alerts via mobile  
+*NeoPack = Smart + Safe + Aware.*
 
 ---
 
-## ✅ Our Solution – NeoPack
+<h2 align="center">🌟 The Problem & Our Vision</h2>
 
-NeoPack turns the backpack into a smart ecosystem:
-- 📚 Uses **EMI-triggered ESP32-C3 modules** embedded in books  
-- 📡 Gets live weather updates and recommends carrying an umbrella  
-- 🔋 Tracks charge level of connected devices and alerts user  
-- ⚖️ Detects bag overweight with a load sensor and gives real-time warnings  
-- 📱 Integrates with a **mobile app** to deliver alerts and dashboard info  
+<table align="center">
+<tr>
+<td width="45%">
+
+### ❌ Traditional Backpacks
+
+- No packing feedback
+- No live status
+- Not aware of weather
+- No phone integration
+
+</td>
+<td width="10%" align="center">➡</td>
+<td width="45%">
+
+### ✅ NeoPack
+
+- 📚 Detects missing books  
+- 🌦 Alerts on rain forecast  
+- 🔋 Tracks battery & weight  
+- 📱 Syncs with mobile app  
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔑 Key Features
 
-### 1. 📚 Smart Book Tracking (No NFC!)  
-Each book has an **ESP32-C3** activated via a custom **EMI-trigger rail**. The backpack’s **ESP32-S3** listens for Bluetooth signals and alerts you if any expected book is missing before you leave.
-
-### 2. 🌧️ Weather-Based Alerts  
-Real-time weather forecasts retrieved via API notify users to carry an umbrella if rain is expected.
-
-### 3. 🔋 Battery Monitoring  
-Tracks charge status of laptops or power banks inside the backpack and sends alerts to the app when battery is low.
-
-### 4. ⚖️ Load Detection  
-Uses a load sensor to calculate the weight of the backpack and alerts the user if it exceeds ergonomic safety limits.
-
-### 5. 📲 NeoPulse Mobile App  
-Provides real-time alerts, interactive dashboards, and status indicators for books, weather, battery, and weight—all synced with the smart bag.
+| Feature | Description |
+|--------|-------------|
+| 📖 *Smart Book Tracking* | Detects books with ESP32-C3 via EMI rail |
+| 🌦 *Weather Sync* | Notifies if rain is expected today |
+| 🔋 *Battery Monitoring* | Tracks laptop/powerbank charge status |
+| ⚖ *Weight Detection* | Load sensor for back safety |
+| 📲 *NeoPulse App* | Control center in your pocket |
 
 ---
 
-## 🛠 Hardware Components
+## 🛠 Hardware Stack
 
-- ESP32-S3 microcontroller (Main controller inside bag)  
-- ESP32-C3 modules (One per book)  
-- EMI power rail (Triggers ESP32-C3 via electromagnetic induction)  
-- Load sensor (Weight detection)  
-- Battery level monitor  
-- Haptic motors and LED indicators for feedback  
-
----
-
-## 💻 Software Components
-
-- **NeoPulse Mobile App** (Dark/Light Mode, Real-time sync)  
-- **Supabase** for cloud sync & offline support  
-- **REST APIs** for communication between backpack and app  
-- **Weather API** integration for forecast alerts  
-- **Secure Communication** using SHA256 authentication  
+| Component | Role |
+|----------|------|
+| *ESP32-S3* | Master brain inside backpack |
+| *ESP32-C3* | Book tags for detection |
+| *EMI Rails* | Activates book modules |
+| *Load Cell* | Detects bag weight |
+| *Battery Monitor* | Monitors connected devices |
+| *LED & Motor* | Feedback signals |
 
 ---
 
-## 📱 NeoPulse App Screens
+## 💻 Software Stack
 
-- **Home**: Overview of all systems and alerts  
-- **Books**: Real-time status of packed books  
-- **Weather**: Forecast alerts and umbrella reminders  
-- **Battery**: Monitoring of device charge levels  
-- **Settings**: Customization and theme toggles  
-
----
-
-## 👥 Authors
-
-- **Manoharan K** – 230701177  
-- **Monic Auditya A** – 230701194  
-- **Monish D Y** – 230701195  
-
----
-
-## 📌 License
-
-This project is for academic demonstration. Licensing will be defined for production versions.
-
----
-
-> "Not just smart. Context-aware. Mission-ready. That’s **NeoPack**."
+```yaml
+Frontend: React Native (NeoPulse App)
+Backend: Supabase Realtime DB
+Cloud: Weather API + Auth
+Firmware: ESP-IDF (C/C++)
+Security: SHA256 + Token-based auth
