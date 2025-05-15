@@ -7,7 +7,7 @@
 ## Our Project Demo
 
 - Here's the youtube link for our project demo:
-- [🔥 This Backpack Knows What You Forgot! 😱 | Meet NeoPack – The Smartest IoT Bag Ever](https://youtu.be/QEiaLV7WJts)
+  
 <p align="center">
   <a href="https://youtu.be/QEiaLV7WJts" target="_blank">
     <img src="https://img.youtube.com/vi/QEiaLV7WJts/0.jpg" alt="NeoPack Demo Video" width="60%" />
